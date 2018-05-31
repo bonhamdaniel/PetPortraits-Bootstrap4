@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kathryn Bonham - Pet Portraits</title>
+		<meta charset="UTF-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+		<script src="js/kathryn.js"></script>
+		<link rel="stylesheet" href="css/chloe.css" />
+	</head>
+	<body>
+		<div class="container-fluid header-bar navbar-dark fixed-top">
+			<div class="row">			
+				<div class="col-1">			
+					<ul class="navbar-nav">
+						<li class="nav-item dropdown">			
+							<a class="navbar-toggler-icon nav-link" href="#" data-toggle="dropdown"></a>				
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#gallery">Gallery</a>
+								<a class="dropdown-item" href="#selector">About Me</a>
+								<a class="dropdown-item" href="#selector">Contact</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-10 header">
+					<h1 class="title">Kathryn Bonham</h1>
+					<h2 class="sub-title">pet portrait artist</h2>
+				</div>
+				<div class="col-1"></div>
+			</div>
+		</div>
+		
+		<div id="carousel" class="carousel" data-ride="carousel">
+			<ul class="carousel-indicators">
+				<li data-target="#carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel" data-slide-to="1"></li>
+				<li data-target="#carousel" data-slide-to="2"></li>
+			</ul>
+			
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/dean-pair.jpg" class="mx-auto d-block" alt="Dean with portrait">				
+				</div>
+				<div class="carousel-item">
+					<img src="images/scout-pair.jpg" class="mx-auto d-block" alt="Scout with portrait">				
+				</div>
+				<div class="carousel-item">
+					<img src="images/chloe-pair.jpg" class="mx-auto d-block" alt="Chloe with portrait">				
+				</div>
+			</div>
+			
+			<a class="carousel-control-prev" href="#carousel" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>			
+			</a>
+			<a class="carousel-control-next" href="#carousel" data-slide="next">
+				<span class="carousel-control-next-icon"></span>			
+			</a>
+		</div>
+		
+		<div class="container-fluid text-center font-weight-bold heading" id="gallery">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="display-4">Gallery</h1>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid picSet1" id="picSet1">
+			<div class="row d-flex">
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="0"><img class="img-thumbnail" src="images/Bailey.jpg"></a></div>		
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="1"><img class="img-thumbnail" src="images/bella.jpg"></a></div>			
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="2"><img class="img-thumbnail" src="images/bentley.jpg"></a></div>
+			</div>
+			<div class="row d-flex">
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="3"><img class="img-thumbnail" src="images/chandler.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="4"><img class="img-thumbnail" src="images/Charles.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="5"><img class="img-thumbnail" src="images/Chester.jpg"></a></div>
+			</div>
+			<div class="row d-flex">			
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="6"><img class="img-thumbnail" src="images/chloe.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="7"><img class="img-thumbnail" src="images/dean.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="8"><img class="img-thumbnail" src="images/noah.jpg"></a></div>		
+			</div>
+		</div>
+		
+		<div class="container-fluid picSet2" id="picSet2">
+			<div class="row d-flex">
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="9"><img class="img-thumbnail" src="images/remy.jpg"></a></div>		
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="10"><img class="img-thumbnail" src="images/rex.jpg"></a></div>			
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="11"><img class="img-thumbnail" src="images/rosie.jpg"></a></div>
+			</div>
+			<div class="row d-flex">
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="12"><img class="img-thumbnail" src="images/ruby.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="13"><img class="img-thumbnail" src="images/scout.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="14"><img class="img-thumbnail" src="images/welly.jpg"></a></div>
+			</div>
+			<div class="row d-flex">			
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="15"><img class="img-thumbnail" src="images/lucas.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="16"><img class="img-thumbnail" src="images/jayjay.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="17"><img class="img-thumbnail" src="images/dylan.jpg"></a></div>		
+			</div>
+		</div>
+		
+		<div class="container-fluid picSet3" id="picSet3">
+			<div class="row d-flex">
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="18"><img class="img-thumbnail" src="images/estralita.jpg"></a></div>		
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="19"><img class="img-thumbnail" src="images/langley.jpg"></a></div>			
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="20"><img class="img-thumbnail" src="images/luna.jpg"></a></div>
+			</div>
+			<div class="row d-flex">
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="21"><img class="img-thumbnail" src="images/solitude.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="22"><img class="img-thumbnail" src="images/spartan.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="23"><img class="img-thumbnail" src="images/willow.jpg"></a></div>
+			</div>
+			<div class="row d-flex">			
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="24"><img class="img-thumbnail" src="images/charlie-large.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="25"><img class="img-thumbnail" src="images/charlie-horse.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="26"><img class="img-thumbnail" src="images/corona.jpg"></a></div>		
+			</div>
+		</div>
+		
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" title="Close">&times;</button>
+					</div>	
+					<div class="modal-body">
+					
+					<div id="myGallery" class="carousel slide" data-interval="false">
+						<div class="carousel-inner">
+							<div class="carousel-item active"><img src="images/bailey.jpg" class="mx-auto d-block" alt="Bailey"></div>
+							<div class="carousel-item"><img src="images/bella.jpg" class="mx-auto d-block" alt="Bella"></div>
+							<div class="carousel-item"><img src="images/bentley.jpg" class="mx-auto d-block" alt="Bentley"></div>
+							<div class="carousel-item"><img src="images/chandler.jpg" class="mx-auto d-block" alt="Chandler"></div>
+							<div class="carousel-item"><img src="images/charles.jpg" class="mx-auto d-block" alt="Charles"></div>
+							<div class="carousel-item"><img src="images/chester.jpg" class="mx-auto d-block" alt="Chester"></div>
+							<div class="carousel-item"><img src="images/chloe.jpg" class="mx-auto d-block" alt="Chloe"></div>
+							<div class="carousel-item"><img src="images/dean.jpg" class="mx-auto d-block" alt="Dean"></div>
+							<div class="carousel-item"><img src="images/noah.jpg" class="mx-auto d-block" alt="Noah"></div>
+
+							<div class="carousel-item"><img src="images/remy.jpg" class="mx-auto d-block" alt="Remy"></div>
+							<div class="carousel-item"><img src="images/rex.jpg" class="mx-auto d-block" alt="Rex"></div>
+							<div class="carousel-item"><img src="images/rosie.jpg" class="mx-auto d-block" alt="Rosie"></div>
+							<div class="carousel-item"><img src="images/ruby.jpg" class="mx-auto d-block" alt="Ruby"></div>
+							<div class="carousel-item"><img src="images/scout.jpg" class="mx-auto d-block" alt="Scout"></div>
+							<div class="carousel-item"><img src="images/welly.jpg" class="mx-auto d-block" alt="Welly"></div>
+							<div class="carousel-item"><img src="images/lucas.jpg" class="mx-auto d-block" alt="Lucas"></div>
+							<div class="carousel-item"><img src="images/jayjay.jpg" class="mx-auto d-block" alt="JayJay"></div>
+							<div class="carousel-item"><img src="images/dylan.jpg" class="mx-auto d-block" alt="Dylan"></div>
+
+							<div class="carousel-item"><img src="images/estralita.jpg" class="mx-auto d-block" alt="Estralita"></div>
+							<div class="carousel-item"><img src="images/langley.jpg" class="mx-auto d-block" alt="Langley"></div>
+							<div class="carousel-item"><img src="images/luna.jpg" class="mx-auto d-block" alt="Luna"></div>
+							<div class="carousel-item"><img src="images/solitude.jpg" class="mx-auto d-block" alt="Solitude"></div>
+							<div class="carousel-item"><img src="images/spartan.jpg" class="mx-auto d-block" alt="Spartan"></div>
+							<div class="carousel-item"><img src="images/willow.jpg" class="mx-auto d-block" alt="Willow"></div>
+							<div class="carousel-item"><img src="images/charlie-large.jpg" class="mx-auto d-block" alt="Charlie"></div>
+							<div class="carousel-item"><img src="images/charlie-horse.jpg" class="mx-auto d-block" alt="Charlie"></div>
+							<div class="carousel-item"><img src="images/corona.jpg" class="mx-auto d-block" alt="Corona"></div>
+						</div>
+			
+						<a class="carousel-control-prev" href="#myGallery" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>			
+						</a>
+						<a class="carousel-control-next" href="#myGallery" data-slide="next">
+							<span class="carousel-control-next-icon"></span>			
+						</a>
+					</div>
+					
+					</div>
+					<div class="modal-footer">
+						<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid text-center font-weight-bold heading">
+			<div class="row">
+				<div class="col-12 selector" id="selector">
+					<ul>
+						<li onclick="picPage(0)">&#10094;</li>
+						<li class="pagenum" id="1" onclick="picPage(1)">1</li>
+						<li class="pagenum" id="2" onclick="picPage(2)">2</li>
+						<li class="pagenum" id="3" onclick="picPage(3)">3</li>
+						<li onclick="picPage(4)">&#10095</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-s-12 text-center aboutme">
+					<h1>About Me</h1>
+					<p>Kathryn Bonham is a Canadian artist specializing in traditionally painted portraits of both dogs and horses. Educated at Sheridan College, Kathryn mainly focuses on oil 
+						portraiture and strives to create realistic images that truly capture the subject's look and personality.</p>
+ 					<p>Kathryn is currently working out of studio space in Burlington, ON and is accepting commissions from clients around the globe. Pricing starting at $250.</p>
+ 					<p>Please note that a high quality reference image in desired pose is required in order to produce a detailed portrait, cellphone images will not suffice.</p>
+					<div class="address"><img id="location" src="images/locationtag.png" width="32" height="32" /><address>Burlington, ON</address></div>
+					<div class="address"><a href="mailto:kathryn_bonham@hotmail.com"><img id="envelope" src="images/envelope.png" width="32" height="32" /><address>kathryn_bonham@hotmail.com</address></a></div>
+					<div class="address"><a href="tel:1-905-802-5891"><img id="phone" src="images/phone.png" width="32" height="32" /><address>905-802-5891</address></div></a>
+				</div>
+			</div>
+		</div>		
+		
+		<div class="container-fluid footer text-center">
+			<div class="row">
+				<div class="footer-links col-12">
+					<a href="https://www.etsy.com/ca/shop/KBPortraits?ref=hdr_shop_menu" target="_blank">
+						<img id="etsyIcon" src="images/etsy.png" width="32" />
+					</a>
+					<a href="https://www.facebook.com/KBPortraits" target="_blank">
+						<img id="facebookIcon" src="images/facebook.png" width="32" />
+					</a>
+					<a href="https://www.instagram.com/petportraitsbykath/" target="_blank">
+						<img id="instagramIcon" src="images/instagram.png" width="32" />
+					</a>
+			`	</div>
+		``</div>
+
+			<div class="row">
+				<div class="text-center copyright col-12">
+  					<small>&#169;Daniel Bonham 2018 All Rights Reserved</small>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
