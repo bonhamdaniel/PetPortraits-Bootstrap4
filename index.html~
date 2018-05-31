@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 	<head>
 		<title>Kathryn Bonham - Pet Portraits</title>
 		<meta charset="UTF-8" />
@@ -77,55 +77,55 @@
 		
 		<div class="container-fluid picSet1" id="picSet1">
 			<div class="row d-flex">
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="0"><img class="img-thumbnail" src="images/Bailey.jpg"></a></div>		
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="1"><img class="img-thumbnail" src="images/bella.jpg"></a></div>			
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="2"><img class="img-thumbnail" src="images/bentley.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="0"><img class="img-thumbnail" src="images/bailey.jpg" alt="Bailey"></a></div>		
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="1"><img class="img-thumbnail" src="images/bella.jpg" alt="Bella"></a></div>			
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="2"><img class="img-thumbnail" src="images/bentley.jpg" alt="Bentley"></a></div>
 			</div>
 			<div class="row d-flex">
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="3"><img class="img-thumbnail" src="images/chandler.jpg"></a></div>
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="4"><img class="img-thumbnail" src="images/Charles.jpg"></a></div>
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="5"><img class="img-thumbnail" src="images/Chester.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="3"><img class="img-thumbnail" src="images/chandler.jpg" alt="Chandler"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="4"><img class="img-thumbnail" src="images/charles.jpg" alt="Charles"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="5"><img class="img-thumbnail" src="images/chester.jpg" alt="Chester"></a></div>
 			</div>
 			<div class="row d-flex">			
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="6"><img class="img-thumbnail" src="images/chloe.jpg"></a></div>
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="7"><img class="img-thumbnail" src="images/dean.jpg"></a></div>
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="8"><img class="img-thumbnail" src="images/noah.jpg"></a></div>		
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="6"><img class="img-thumbnail" src="images/chloe.jpg" alt="Chloe"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="7"><img class="img-thumbnail" src="images/dean.jpg" alt="Dean"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="8"><img class="img-thumbnail" src="images/noah.jpg" alt="Noah"></a></div>		
 			</div>
 		</div>
 		
 		<div class="container-fluid picSet2" id="picSet2">
 			<div class="row d-flex">
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="9"><img class="img-thumbnail" src="images/remy.jpg"></a></div>		
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="10"><img class="img-thumbnail" src="images/rex.jpg"></a></div>			
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="11"><img class="img-thumbnail" src="images/rosie.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="9"><img class="img-thumbnail" src="images/remy.jpg" alt="Remy"></a></div>		
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="10"><img class="img-thumbnail" src="images/rex.jpg" alt="Rex"></a></div>			
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="11"><img class="img-thumbnail" src="images/rosie.jpg" alt="Rosie"></a></div>
 			</div>
 			<div class="row d-flex">
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="12"><img class="img-thumbnail" src="images/ruby.jpg"></a></div>
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="13"><img class="img-thumbnail" src="images/scout.jpg"></a></div>
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="14"><img class="img-thumbnail" src="images/welly.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="12"><img class="img-thumbnail" src="images/ruby.jpg" alt="Ruby"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="13"><img class="img-thumbnail" src="images/scout.jpg" alt="Scout"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="14"><img class="img-thumbnail" src="images/welly.jpg" alt="Welly"></a></div>
 			</div>
 			<div class="row d-flex">			
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="15"><img class="img-thumbnail" src="images/lucas.jpg"></a></div>
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="16"><img class="img-thumbnail" src="images/jayjay.jpg"></a></div>
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="17"><img class="img-thumbnail" src="images/dylan.jpg"></a></div>		
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="15"><img class="img-thumbnail" src="images/lucas.jpg" alt="Lucas"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="16"><img class="img-thumbnail" src="images/jayjay.jpg" alt="JayJay"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="17"><img class="img-thumbnail" src="images/dylan.jpg" alt="Dylan"></a></div>		
 			</div>
 		</div>
 		
 		<div class="container-fluid picSet3" id="picSet3">
 			<div class="row d-flex">
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="18"><img class="img-thumbnail" src="images/estralita.jpg"></a></div>		
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="19"><img class="img-thumbnail" src="images/langley.jpg"></a></div>			
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="20"><img class="img-thumbnail" src="images/luna.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="18"><img class="img-thumbnail" src="images/estralita.jpg" alt="Estralida"></a></div>		
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="19"><img class="img-thumbnail" src="images/langley.jpg" alt="Langley"></a></div>			
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="20"><img class="img-thumbnail" src="images/luna.jpg" alt="Luna"></a></div>
 			</div>
 			<div class="row d-flex">
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="21"><img class="img-thumbnail" src="images/solitude.jpg"></a></div>
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="22"><img class="img-thumbnail" src="images/spartan.jpg"></a></div>
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="23"><img class="img-thumbnail" src="images/willow.jpg"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="21"><img class="img-thumbnail" src="images/solitude.jpg" alt="Solitude"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="22"><img class="img-thumbnail" src="images/spartan.jpg" alt="Spartan"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="23"><img class="img-thumbnail" src="images/willow.jpg" alt="Willow"></a></div>
 			</div>
 			<div class="row d-flex">			
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="24"><img class="img-thumbnail" src="images/charlie-large.jpg"></a></div>
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="25"><img class="img-thumbnail" src="images/charlie-horse.jpg"></a></div>
-				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="26"><img class="img-thumbnail" src="images/corona.jpg"></a></div>		
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="24"><img class="img-thumbnail" src="images/charlie-large.jpg" alt="Charlie"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="25"><img class="img-thumbnail" src="images/charlie-horse.jpg" alt="Charlie"></a></div>
+				<div class="col-4 align-self-stretch" data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="26"><img class="img-thumbnail" src="images/corona.jpg" alt="Corona"></a></div>		
 			</div>
 		</div>
 		
@@ -194,7 +194,7 @@
 						<li class="pagenum" id="1" onclick="picPage(1)">1</li>
 						<li class="pagenum" id="2" onclick="picPage(2)">2</li>
 						<li class="pagenum" id="3" onclick="picPage(3)">3</li>
-						<li onclick="picPage(4)">&#10095</li>
+						<li onclick="picPage(4)">&#10095;</li>
 					</ul>
 				</div>
 			</div>
@@ -208,9 +208,9 @@
 						portraiture and strives to create realistic images that truly capture the subject's look and personality.</p>
  					<p>Kathryn is currently working out of studio space in Burlington, ON and is accepting commissions from clients around the globe. Pricing starting at $250.</p>
  					<p>Please note that a high quality reference image in desired pose is required in order to produce a detailed portrait, cellphone images will not suffice.</p>
-					<div class="address"><img id="location" src="images/locationtag.png" width="32" height="32" /><address>Burlington, ON</address></div>
-					<div class="address"><a href="mailto:kathryn_bonham@hotmail.com"><img id="envelope" src="images/envelope.png" width="32" height="32" /><address>kathryn_bonham@hotmail.com</address></a></div>
-					<div class="address"><a href="tel:1-905-802-5891"><img id="phone" src="images/phone.png" width="32" height="32" /><address>905-802-5891</address></div></a>
+					<div class="address"><img id="location" src="images/locationtag.png" alt="Location Tag" width="32" height="32" /><address>Burlington, ON</address></div>
+					<div class="address"><a href="mailto:kathryn_bonham@hotmail.com"><img id="envelope" src="images/envelope.png" alt="Email Icon" width="32" height="32" /><address>kathryn_bonham@hotmail.com</address></a></div>
+					<div class="address"><a href="tel:1-905-802-5891"><img id="phone" src="images/phone.png" alt="Cell Icon" width="32" height="32" /><address>905-802-5891</address></a></div>
 				</div>
 			</div>
 		</div>		
@@ -219,13 +219,13 @@
 			<div class="row">
 				<div class="footer-links col-12">
 					<a href="https://www.etsy.com/ca/shop/KBPortraits?ref=hdr_shop_menu" target="_blank">
-						<img id="etsyIcon" src="images/etsy.png" width="32" />
+						<img id="etsyIcon" src="images/etsy.png" alt="Etsy Link" width="32" />
 					</a>
 					<a href="https://www.facebook.com/KBPortraits" target="_blank">
-						<img id="facebookIcon" src="images/facebook.png" width="32" />
+						<img id="facebookIcon" src="images/facebook.png" alt="Facebook Link" width="32" />
 					</a>
 					<a href="https://www.instagram.com/petportraitsbykath/" target="_blank">
-						<img id="instagramIcon" src="images/instagram.png" width="32" />
+						<img id="instagramIcon" src="images/instagram.png" alt="Instagram Link" width="32" />
 					</a>
 			`	</div>
 		``</div>
