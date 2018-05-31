@@ -4,7 +4,8 @@ function picPage(num) {
         ps1Display = document.getElementById("picSet1").style.display,
         ps2Display = document.getElementById("picSet2").style.display,
         ps3Display = document.getElementById("picSet3").style.display;
-    if (num === 1 || (num === 0 && ps2Display === "block")) {
+    if (ps1Display !== "block" && ps2Display !== "block" && ps1Display !== "block") { ps1Display = "block"; }
+    if (num === 1 || (num === 0 && ps2Display === "block") || (num === 4 && ps3Display === "block")) {
         showing = document.getElementsByClassName("picSet1");
         hidden = document.getElementsByClassName("picSet2");
         hidden2 = document.getElementsByClassName("picSet3");
@@ -12,7 +13,7 @@ function picPage(num) {
         hidden = document.getElementsByClassName("picSet1");
         showing = document.getElementsByClassName("picSet2");
         hidden2 = document.getElementsByClassName("picSet3");
-    } else if (num === 3 || (num === 4 && ps2Display === "block")) {
+    } else if (num === 3 || (num === 4 && ps2Display === "block") || (num === 0 && ps1Display === "block")) {
         hidden = document.getElementsByClassName("picSet1");
         hidden2 = document.getElementsByClassName("picSet2");
         showing = document.getElementsByClassName("picSet3");

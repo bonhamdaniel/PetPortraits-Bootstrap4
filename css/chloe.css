@@ -71,10 +71,6 @@ html, body {
 	width: 100%;
 }
 
-#picSet1 {
-	display: block;
-}
-
 .picSet2, .picSet3 {
 	display: none;
 }
@@ -83,12 +79,6 @@ html, body {
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 10, 25, 1.0);
-}
-
-.modal-dialog {
-	margin-top: 0;
-	margin-bottom: 0;
-	height: 100%;
 }
 
 #selector {

@@ -27,7 +27,7 @@
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="#gallery">Gallery</a>
 								<a class="dropdown-item" href="#selector">About Me</a>
-								<a class="dropdown-item" href="#selector">Contact</a>
+								<a class="dropdown-item" href="#contact">Contact</a>
 							</div>
 						</li>
 					</ul>
@@ -130,7 +130,7 @@
 		</div>
 		
 		<div class="modal fade" id="myModal">
-			<div class="modal-dialog">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" title="Close">&times;</button>
@@ -190,11 +190,11 @@
 			<div class="row">
 				<div class="col-12 selector" id="selector">
 					<ul>
-						<li onclick="picPage(0)">&#10094;</li>
-						<li class="pagenum" id="1" onclick="picPage(1)">1</li>
-						<li class="pagenum" id="2" onclick="picPage(2)">2</li>
-						<li class="pagenum" id="3" onclick="picPage(3)">3</li>
-						<li onclick="picPage(4)">&#10095;</li>
+						<li onclick="picPage(0)"><a href="#gallery">&#10094;</a></li>
+						<li class="pagenum" id="1" onclick="picPage(1)"><a href="#gallery">1</a></li>
+						<li class="pagenum" id="2" onclick="picPage(2)"><a href="#gallery">2</a></li>
+						<li class="pagenum" id="3" onclick="picPage(3)"><a href="#gallery">3</a></li>
+						<li onclick="picPage(4)"><a href="#gallery">&#10095;</a></li>
 					</ul>
 				</div>
 			</div>
@@ -209,7 +209,7 @@
  					<p>Kathryn is currently working out of studio space in Burlington, ON and is accepting commissions from clients around the globe. Pricing starting at $250.</p>
  					<p>Please note that a high quality reference image in desired pose is required in order to produce a detailed portrait, cellphone images will not suffice.</p>
 					<div class="address"><img id="location" src="images/locationtag.png" alt="Location Tag" width="32" height="32" /><address>Burlington, ON</address></div>
-					<div class="address"><a href="mailto:kathryn_bonham@hotmail.com"><img id="envelope" src="images/envelope.png" alt="Email Icon" width="32" height="32" /><address>kathryn_bonham@hotmail.com</address></a></div>
+					<div class="address" id="contact"><a href="mailto:kathryn_bonham@hotmail.com"><img id="envelope" src="images/envelope.png" alt="Email Icon" width="32" height="32" /><address>kathryn_bonham@hotmail.com</address></a></div>
 					<div class="address"><a href="tel:1-905-802-5891"><img id="phone" src="images/phone.png" alt="Cell Icon" width="32" height="32" /><address>905-802-5891</address></a></div>
 				</div>
 			</div>
@@ -227,8 +227,8 @@
 					<a href="https://www.instagram.com/petportraitsbykath/" target="_blank">
 						<img id="instagramIcon" src="images/instagram.png" alt="Instagram Link" width="32" />
 					</a>
-			`	</div>
-		``</div>
+			 	</div>
+		  </div>
 
 			<div class="row">
 				<div class="text-center copyright col-12">

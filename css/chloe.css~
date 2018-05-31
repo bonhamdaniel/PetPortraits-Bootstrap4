@@ -71,10 +71,6 @@ html, body {
 	width: 100%;
 }
 
-#picSet1 {
-	display: block;
-}
-
 .picSet2, .picSet3 {
 	display: none;
 }
@@ -86,9 +82,8 @@ html, body {
 }
 
 .modal-dialog {
-	margin-top: 0;
-	margin-bottom: 0;
-	height: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px
 }
 
 #selector {
@@ -144,5 +139,6 @@ html, body {
 
 .footer-links a {
 	margin-right: 2%;
+	margin-left: 2%;
 	text-decoration: none;
 }
