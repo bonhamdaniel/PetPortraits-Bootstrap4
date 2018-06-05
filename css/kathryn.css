@@ -41,6 +41,7 @@ html, body {
 .sub-title {
 	color: red;
 	font-family: stalemate;
+	padding-top: 0px;
 }
 
 #carousel {
@@ -98,7 +99,7 @@ html, body {
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 40px;
-  color: black;
+  color: grey;
 }
 
 #selector {

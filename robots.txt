@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+Noindex:
+
+Sitemap: https://kathrynbonham.com/sitemap.xml
